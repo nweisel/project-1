@@ -7,3 +7,13 @@ let arrAvg = (arr) => {
   }
   return sum / arr.length;
 };
+
+let arrMax = (numbers) => {
+  let currentMaximum = -Inifinity;
+  numbers.forEach(function(number){
+    if (number > currentMaximum) {
+      currentMaximum = number;
+    }
+  });
+  return currentMaximum;
+}
