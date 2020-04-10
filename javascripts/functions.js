@@ -16,4 +16,4 @@ let arrMax = (numbers) => {
     }
   });
   return currentMaximum;
-}
+};
